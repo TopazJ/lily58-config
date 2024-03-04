@@ -40,7 +40,7 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            label = "Lower";
+            label = "Numpad";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &kp KP_NUM       &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp BACKSPACE    &kp ESCAPE  &none
 &kp F1      &kp F2        &kp F3        &none         &kp UP        &none                                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp HOME    &kp PG_UP
