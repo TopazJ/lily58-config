@@ -74,11 +74,11 @@
 
         CS2 {
             bindings = <
-&kp ESCAPE      &kp GRAVE  &kp SEMICOLON  &kp SQT    &kp ENTER        &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp B           &kp F      &trans         &kp SLASH  &kp RIGHT_SHIFT  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp D      &trans         &kp F      &kp UP           &kp SEMICOLON                    &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp LCMD   &trans         &kp LEFT   &kp DOWN         &kp RIGHT      &to 2     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &kp L      &kp D            &kp B          &trans    &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp GRAVE  &kp SEMICOLON  &kp SQT    &kp ENTER        &none                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp B           &kp F      &none          &kp SLASH  &kp RIGHT_SHIFT  &none                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp D      &none          &kp F      &kp UP           &none                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp LCMD   &none          &kp LEFT   &kp DOWN         &kp RIGHT  &none    &to 2   &trans  &trans  &trans  &trans  &trans  &trans
+                                          &kp L      &kp D            &kp B      &none    &trans  &trans  &trans  &trans
             >;
         };
     };
