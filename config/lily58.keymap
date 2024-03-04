@@ -40,7 +40,7 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            label = "Lower";
+            label = "Numpad";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                            &kp KP_NUM       &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp BACKSPACE    &none     &none
 &kp F1      &kp F2        &kp F3        &none         &kp UP        &none                                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp HOME  &kp PG_UP
@@ -60,7 +60,7 @@
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            label = "Raise";
+            label = "Symbols";
             bindings = <
 &kp F1         &kp F2           &kp F3       &kp F4     &kp F5            &kp F6                             &kp F7     &kp F8         &kp F9        &kp F10               &kp F11                &kp F12
 &kp GRAVE      &kp N1           &kp N2       &kp N3     &kp N4            &kp N5                             &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
@@ -73,6 +73,7 @@
         };
 
         CS2 {
+            label = "CS2";
             bindings = <
 &kp ESCAPE      &kp GRAVE  &kp SEMICOLON  &kp SQT    &kp ENTER        &none                       &trans  &trans  &trans  &trans  &trans  &trans
 &kp B           &kp F      &none          &kp SLASH  &kp RIGHT_SHIFT  &none                       &trans  &trans  &trans  &trans  &trans  &trans
