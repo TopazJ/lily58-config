@@ -77,7 +77,7 @@
 &kp ESCAPE  &kp GRAVE  &kp SEMICOLON  &kp SQT    &kp ENTER        &trans                           &trans  &trans  &trans  &trans  &trans  &trans
 &kp B       &kp F      &trans         &kp SLASH  &kp RIGHT_SHIFT  &trans                           &trans  &trans  &trans  &trans  &trans  &trans
 &kp D       &trans     &trans         &kp F      &kp UP           &kp SEMICOLON                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans     &trans         &kp LEFT   &kp DOWN         &kp RIGHT      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans     &trans         &kp LEFT   &kp DOWN         &kp RIGHT      &to 2     &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                       &kp L      &kp D            &trans         &trans    &trans  &trans  &trans  &trans
             >;
         };
