@@ -75,11 +75,11 @@
         CS2 {
             label = "CS2";
             bindings = <
-&kp ESCAPE      &kp GRAVE  &kp SEMICOLON  &kp SQT    &kp ENTER        &kp X                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCMD        &kp D      &none          &kp SLASH  &kp RIGHT_SHIFT  &kp T                               &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp B      &none          &kp F      &kp UP           &kp SEMI                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp RCTRL  &none          &kp LEFT   &kp DOWN         &kp RIGHT  &kp S            &to 2   &trans  &trans  &trans  &trans  &trans  &trans
-                                          &kp L      &kp SLASH        &kp B      &kp RIGHT_ALT    &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp GRAVE     &kp SEMICOLON  &kp SQT    &kp ENTER        &kp X                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCMD        &kp D         &none          &kp SLASH  &kp RIGHT_SHIFT  &kp T                               &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp B         &none          &kp F      &kp UP           &kp SEMI                            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_ALT  &none          &kp LEFT   &kp DOWN         &kp RIGHT  &kp S            &to 2   &trans  &trans  &trans  &trans  &trans  &trans
+                                             &kp L      &kp SLASH        &kp B      &kp RIGHT_ALT    &trans  &trans  &trans  &trans
             >;
         };
     };
